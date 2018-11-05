@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Temperature monitoring system</title>
+    <!-- 引入 mystyle.css -->
+    <link rel="stylesheet" type="text/css" href="./css/mystyle.css" />
+    <!-- 引入 echarts.js -->
+    <script src="./echarts/echarts.js"></script>
+    <!-- <script src="./script/canvas.js"></script> -->
+</head>
+<body>
+    <div id="header">
+        郑州地铁1#线备用电池监控系统
+    </div>
+    <div id="left">
+        <div id="myCanvas" >
+            <div id = "Rectangle">
+            </div>
+            <div class="circle" id="s1" style="left:24px;top:-830px"></div>
+            <div class="circle" id="s2" style="left:24px;top:-825px"></div>
+            <div class="circle" id="s3" style="left:24px;top:-820px"></div>
+            <div class="circle" id="s4" style="left:24px;top:-815px"></div>
+            <div class="circle" id="s5" style="left:24px;top:-810px"></div>
+            <div class="circle" id="s6" style="left:24px;top:-805px"></div>
+            <div class="circle" id="s7" style="left:24px;top:-800px"></div>
+            <div class="circle" id="s8" style="left:24px;top:-795px"></div>
+            <div class="circle" id="s9" style="left:24px;top:-790px"></div>
+            <div class="circle" id="s10" style="left:24px;top:-785px"></div>
+            <div class="circle" id="s11" style="left:24px;top:-780px"></div>
+            <div class="circle" id="s12" style="left:24px;top:-775px"></div>
+            <div class="circle" id="s13" style="left:24px;top:-770px"></div>
+            <div class="circle" id="s14" style="left:24px;top:-765px"></div>
+            <div class="circle" id="s15" style="left:24px;top:-760px"></div>
+            <div class="circle" id="s16" style="left:24px;top:-755px"></div>
+            <div class="circle" id="s17" style="left:24px;top:-750px"></div>
+            <div class="circle" id="s18" style="left:24px;top:-745px"></div>
+            <div class="circle" id="s19" style="left:24px;top:-740px"></div>
+            <div class="circle" id="s20" style="left:24px;top:-735px"></div>
+            <div class="circle" id="s21" style="left:24px;top:-730px"></div>
+            <div class="circle" id="s22" style="left:24px;top:-725px"></div>
+            <div class="circle" id="s23" style="left:24px;top:-720px"></div>
+            <div class="circle" id="s24" style="left:24px;top:-715px"></div>
+            <div class="circle" id="s25" style="left:24px;top:-710px"></div>
+            <div class="circle" id="s26" style="left:24px;top:-705px"></div>
+            <div class="circle" id="s27" style="left:24px;top:-700px"></div>
+            <div class="circle" id="s28" style="left:24px;top:-695px"></div>
+            <div class="circle" id="s29" style="left:24px;top:-690px"></div>
+            <div class="circle" id="s30" style="left:24px;top:-685px"></div>     
+            <div class="circle" id="s31" style="left:24px;top:-680px"></div>   
+        </div>
+
+        <div id = "left_s_name">
+            <p class="station">河南工业大学</p>
+            <p class="station">郑大科技园站</p>
+            <p class="station">郑州大学站</p>
+            <p class="station">梧桐街站</p>
+            <p class="station">郑州大学</p>
+            <p class="station">兰寨站</p>
+            <p class="station">铁炉站</p>        
+            <p class="station">市民中心站</p>
+            <p class="station">西流湖站</p>
+            <p class="station">西三环站</p>
+            <p class="station">秦岭路站</p>
+            <p class="station">五一公园站</p>
+            <p class="station">碧沙岗站</p>
+            <p class="station">绿城广场站</p>
+            <p class="station">医学院站</p>
+            <p class="station">郑州火车站</p>
+            <p class="station">二七广场站</p>
+            <p class="station">人民路站</p>
+            <p class="station">紫荆山站</p>
+            <p class="station">燕庄站</p>
+            <p class="station">民航路站</p>
+            <p class="station">会展中心站</p>
+            <p class="station">黄河南路站</p>
+            <p class="station">农业南路站</p>
+            <p class="station">东风南路站</p>
+            <p class="station">郑州东站</p>
+            <p class="station">博学路站</p>
+            <p class="station">市体育中心站</p>
+            <p class="station">龙子湖站</p>
+            <p class="station">文苑北路站</p>
+            <p class="station">河南大学新区站</p>
+        </div>
+    </div>
+    <div id="right_top">
+            <script type="text/javascript">
+                // 基于准备好的dom，初始化echarts实例
+                var myChart = echarts.init(document.getElementById('right_top'));
+        
+                // 指定图表的配置项和数据
+                var option = {
+                    title: {
+                        text: 'ECharts 入门示例'
+                    },
+                    tooltip: {},
+                    legend: {
+                        data:['销量']
+                    },
+                    xAxis: {
+                        data: ["衬衫","羊毛衫","雪纺衫","裤子","高跟鞋","袜子"]
+                    },
+                    yAxis: {},
+                    series: [{
+                        name: '销量',
+                        type: 'bar',
+                        data: [5, 20, 36, 10, 10, 20]
+                    }]
+                };
+        
+                // 使用刚指定的配置项和数据显示图表。
+                myChart.setOption(option);
+            </script>
+    </div>    
+    <div id="right_down">
+
+    </div>      
+ 
+
+
+    <div id="footer">
+         @2018 www.zzrvtc.edu.cn
+    </div>
+</body>
+</html>

@@ -1,0 +1,80 @@
+
+#header {
+        border-bottom: 1px solid #ebebeb;
+        color: rgb(0,32,96);
+        padding: 0px 0px 10px 0px ;
+        font: bold 26px Microsoft YaHei;
+        }        
+
+h1      {
+        color: rgb(0,32,96);
+        margin-block-end: 0.5em;
+        }
+
+#left   {
+        float:left;
+        width: 280px;
+        height: 855px;
+        padding-top: 20px;
+        margin : 10px 0px 10px 0px;
+        border: 1px solid #ebebeb;
+        }
+#right_top   {
+        float:left;
+        width: 1100px;
+        height: 500px;
+        padding: 50px;
+        margin : 10px 0px 10px 10px;
+        border: 1px solid #ebebeb;
+        }
+#myCanvas {
+        float:left;
+        width:65px;
+        height:850px;
+        margin-left: 10px;
+        /* border:1px solid #000000; */
+        }
+div#Rectangle {
+        width:10px;
+        height:830px;
+        margin-left: 30px;
+        margin-top: 5px;
+        background: red;
+}
+.circle {
+        position:relative;
+        display: block; 
+        border-radius: 50%; 
+        height: 18px; 
+        width: 18px; 
+        margin: 0; 
+        border:2px solid red;
+        background: white;
+        left:23px;
+        top:-100px;
+    }        
+#left_s_name  {
+        float:left;    
+        }       
+#right_down   {
+        float:left;
+        width: 1100px;
+        height: 150px;
+        padding: 50px;
+        margin : 0px 0px 10px 10px;
+        border: 1px solid #ebebeb;
+        }
+div#footer {
+        clear: both;
+        font-size:18px;
+        color: rgb(0,32,96);
+        padding: 10px 0px 0px 0px;
+        border-top: 1px solid #ebebeb;
+        }
+
+.station {
+        width: 150px;
+        margin: 4px 5px 4px 5px;
+        padding: 0px 0px 0px 5px;
+        border: 1px solid red;
+        }
